@@ -1,0 +1,19 @@
+{
+    "name": "take-screenshot",
+    "version": "1.0.0",
+    "description": "Help user take screenshot of the current tab.",
+    "manifest_version": 3,
+    "author": "Swapnil  Ghodse",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Take screenshot"
+    },
+    "permissions": [
+        "activeTab",
+        "contextMenus",
+        "desktopCapture",
+        "tabCapture",
+        "scripting", 
+        "storage"
+       ]
+    }
